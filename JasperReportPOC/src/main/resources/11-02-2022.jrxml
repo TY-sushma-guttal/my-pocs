@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="11-02-2022" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e414cd00-1714-46e7-a565-38c857816470">
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[YHN0cm9uZ2VyTWVgLmNvYWNoX2Zvcl9zZXNzaW9uIEFTICwxNjIsOSxjM2FlMjhlMS00YWM2LTQ5
+MjYtOWY1ZC0xNGVmMjMzOWJmNWY7]]>
+	</property>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="InternalDb"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="50f2864d-2d7e-41ff-b9a3-a9e2ee442981">
+		<property name="com.jaspersoft.studio.data.sql.tables">
+			<![CDATA[YHN0cm9uZ2VyTWVgLmNvYWNoX2Zvcl9zZXNzaW9uIEFTICwxMzgsLTcsMjMzNDBmMjMtMWRhYy00
+ZjhlLWFlYzUtMjg3Mzc4ZmRmMzU1Ow==]]>
+		</property>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="InternalDb"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT coach_full_name,
+	coach_image,
+	coach_email_id,
+	coach_number,
+	coach_description
+FROM `strongerMe`.coach_for_session]]>
+		</queryString>
+		<field name="coach_full_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="coach_full_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="coach_full_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+		</field>
+		<field name="coach_image" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="coach_image"/>
+			<property name="com.jaspersoft.studio.field.label" value="coach_image"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+		</field>
+		<field name="coach_email_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="coach_email_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="coach_email_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+		</field>
+		<field name="coach_number" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="coach_number"/>
+			<property name="com.jaspersoft.studio.field.label" value="coach_number"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+		</field>
+		<field name="coach_description" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="coach_description"/>
+			<property name="com.jaspersoft.studio.field.label" value="coach_description"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+		</field>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[SELECT coach_full_name,
+	coach_number,
+	coach_email_id,
+	coach_image,
+	coach_description
+FROM `strongerMe`.coach_for_session]]>
+	</queryString>
+	<field name="coach_full_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="coach_full_name"/>
+		<property name="com.jaspersoft.studio.field.label" value="coach_full_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+	</field>
+	<field name="coach_number" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="coach_number"/>
+		<property name="com.jaspersoft.studio.field.label" value="coach_number"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+	</field>
+	<field name="coach_email_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="coach_email_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="coach_email_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+	</field>
+	<field name="coach_image" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="coach_image"/>
+		<property name="com.jaspersoft.studio.field.label" value="coach_image"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+	</field>
+	<field name="coach_description" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="coach_description"/>
+		<property name="com.jaspersoft.studio.field.label" value="coach_description"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="coach_for_session"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</title>
+	<summary>
+		<band height="339" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<componentElement>
+				<reportElement x="0" y="0" width="510" height="100" uuid="81b208ab-f543-4674-869d-99df948ace00">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="a94e78b5-8be3-40df-865a-d3a5a66f1b52">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="100" uuid="c4c20ad7-638c-4dc3-af12-d7a3b41116b4">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="4f571c21-9141-43c8-b29c-c51cfd3fc2af"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Black" size="11"/>
+								</textElement>
+								<text><![CDATA[Coach Name]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="eefa4a83-82d6-4f62-94e8-72491ac1cfc5"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{coach_full_name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="436bcb61-faa4-4bb8-bd15-b3f161cd7247">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="a660aa9f-46af-4f2c-9c82-f285ee0f99ce"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Black" size="11"/>
+								</textElement>
+								<text><![CDATA[Coach Image]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="6ea60225-c692-49c8-b8f6-0611952f20ef"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{coach_image}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="a9414612-196d-434b-989f-60ade0505c0a">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="54a98cca-b469-460b-9011-5617c130eb52"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Black" size="11"/>
+								</textElement>
+								<text><![CDATA[Coach Email]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="75e55ee5-666a-4e35-822c-09c93897ab7f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{coach_email_id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="ddb2333d-ecde-472f-bbc9-442c9caddc9e">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="a8bed524-c424-48ea-8d47-fdad395784da"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Black" size="11"/>
+								</textElement>
+								<text><![CDATA[Coach Contact No]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="b503e5cb-10fd-4e57-92d6-233f23e92a5d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{coach_number}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="a64b47c7-2162-46ec-aa1c-662974bd3e86">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="1d4b2bae-6481-4723-a731-c6fe80f6a14e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Black" size="11"/>
+								</textElement>
+								<text><![CDATA[Description]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="48520aea-81b7-4c6a-a2c8-cd1553bdaf5e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{coach_description}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</summary>
+</jasperReport>
